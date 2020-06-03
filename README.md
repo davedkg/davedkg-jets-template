@@ -1,11 +1,10 @@
-# Jets Project
+# davedkg-jets-template
 
-This README would normally document whatever steps are necessary to get the application up and running.
+## Local Setup
 
-Things you might want to cover:
-
-* Dependencies
-* Configuration
-* Database setup
-* How to run the test suite
-* Deployment instructions
+```bash
+$ brew install postgresql yarn
+$ bundle && yarn
+$ foreman start -f Procfile.dev
+$ open http://localhost:8888/
+```

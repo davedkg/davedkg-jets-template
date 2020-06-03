@@ -112,6 +112,7 @@ GEM
       aws-sdk-dynamodb
       rainbow
     erubi (1.9.0)
+    foreman (0.87.1)
     gems (1.2.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -236,6 +237,7 @@ DEPENDENCIES
   byebug
   capybara
   dynomite
+  foreman (~> 0.87.1)
   jetpacker
   jets
   launchy

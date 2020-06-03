@@ -20,6 +20,10 @@ group :development, :test do
   gem 'puma'
 end
 
+group :development do
+  gem 'foreman', "~> 0.87.1"
+end
+
 group :test do
   gem 'rspec' # rspec test group only or we get the "irb: warn: can't alias context from irb_context warning" when starting jets console
   gem 'launchy'
