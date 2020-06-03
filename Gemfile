@@ -9,7 +9,8 @@ gem "jetpacker"
 # and config/database.yml file if you are not
 gem "pg", "~> 1.1.3"
 
-gem "dynomite"
+gem "dynomite" # TODO remove me
+gem 'haml-jets', "~> 0.1.1"
 
 # development and test groups are not bundled as part of the deployment
 group :development, :test do
