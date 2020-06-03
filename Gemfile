@@ -1,16 +1,12 @@
 source "https://rubygems.org"
 
-gem "jets"
+ruby "2.6.6"
 
-# Include jetpacker if you are you are building html pages
-gem "jetpacker"
+gem "jets", "~> 2.3.16"
 
-# Include pg gem if you are using ActiveRecord, remove next line
-# and config/database.yml file if you are not
-gem "pg", "~> 1.1.3"
-
-gem "dynomite" # TODO remove me
 gem 'haml-jets', "~> 0.1.1"
+gem "jetpacker", "~> 0.4.2"
+gem "pg", "~> 1.1.3"
 
 # development and test groups are not bundled as part of the deployment
 group :development, :test do

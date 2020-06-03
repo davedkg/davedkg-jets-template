@@ -107,10 +107,6 @@ GEM
     crass (1.0.6)
     diff-lcs (1.3)
     dotenv (2.7.5)
-    dynomite (1.2.6)
-      activesupport
-      aws-sdk-dynamodb
-      rainbow
     erubi (1.9.0)
     foreman (0.87.1)
     gems (1.2.0)
@@ -243,17 +239,19 @@ PLATFORMS
 DEPENDENCIES
   byebug
   capybara
-  dynomite
   foreman (~> 0.87.1)
   haml-jets (~> 0.1.1)
-  jetpacker
-  jets
+  jetpacker (~> 0.4.2)
+  jets (~> 2.3.16)
   launchy
   pg (~> 1.1.3)
   puma
   rack
   rspec
   shotgun
+
+RUBY VERSION
+   ruby 2.6.6p146
 
 BUNDLED WITH
    1.17.3
